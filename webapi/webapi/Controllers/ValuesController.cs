@@ -23,7 +23,7 @@ namespace webapi.Controllers
         {
             //JavaScriptSerializer serializer = new JavaScriptSerializer();
             //var providerName = "System.Data.SqlClient";
-            conn_string = "Data Source=MAI-NO-PC\\MSSQLSERVER1;Initial Catalog=CVdata;Integrated Security=True";
+            conn_string = "Data Source=servername ;Initial Catalog=Dbname;Integrated Security=True";
             procedurename = "spGetProjectsdetailslist;";
             DataSet projectsDT = new DataSet();
             var projectlist = new List<Project>();
